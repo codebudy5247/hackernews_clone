@@ -1,0 +1,25 @@
+<div class="container mt-4">
+
+    <div class="row justify-content-md-center">
+        <h4 class="display-4">submit a new article</h4>
+    </div>
+    <div class="row justify-content-md-center">
+        <div class="col col-lg-6">
+            <form action="/api/news" method="POST">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Title</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Title" id="title" name="title">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">URL</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="URL" id="url" name="url">
+                </div>
+                <button type="submit" class="btn btn-primary mx-auto" style="width: 100px; display:block">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

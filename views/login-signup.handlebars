@@ -1,0 +1,58 @@
+<div class="container mt-4">
+    <div class="row justify-content-md-center">
+        {{!-- SIGNUP FORM START --}}
+        <div class="col-sm-6 mb-5" id="signupform">
+            <h4 class="display-4" align="center">Signup</h4>
+            <form action="/api/user" method="POST" >
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">First Name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="First Name" id="firstName" name="firstName">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Last Name</span>
+                    </div>
+                    <input type="text" class="form-control" placeholder="Last Name" id="lastName" name="lastName">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Email</span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Email" id="email" name="email">
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" id="password" name="password">
+                </div>
+                <button type="submit" class="btn btn-primary mx-auto button-style"
+                    style="width: 100px; display:block">Sign Up</button>
+            </form>
+        </div>
+        {{!-- SIGNUP FORM END --}}
+        {{!-- LOGIN FORM START --}}
+        <div class="col-sm-6">
+            <h4 class="display-4" align="center">Login</h4>
+            <form action="/login" method="POST">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Email</span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Email" id="email" name="email" >
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text">Password</span>
+                    </div>
+                    <input type="password" class="form-control" placeholder="Password" id="password" name="password" >
+                </div>
+                <button type="submit" class="btn btn-primary mx-auto button-style"
+                    style="width: 100px; display:block" >Log In</button>
+            </form>
+        </div>
+    </div>
+</div>
+{{!-- LOGIN FORM END --}}

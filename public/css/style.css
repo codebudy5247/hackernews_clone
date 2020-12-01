@@ -1,0 +1,30 @@
+.sortable,
+.sortable li {
+    background-color: rgb(233, 138, 138);
+}
+
+#articles tbody tr td {
+    background-color: #eee8e8;
+    font-family: "Montserrat", sans-serif;
+}
+td.serial {
+    width: 1px;
+    font-size: 1.1em;
+}
+
+.sortable a {
+    color: black;
+    text-decoration: underline;
+    transition: 0.3s;
+}
+.sortable a:hover {
+    text-decoration: none;
+}
+
+button.button-style {
+    background-color: rgb(233, 138, 138);
+    color: black;
+    border: 1px solid rgb(94, 11, 11);
+    font-weight: bold;
+    border-radius: 5%;
+}
